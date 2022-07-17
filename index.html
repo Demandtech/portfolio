@@ -1,107 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <script src="https://kit.fontawesome.com/424ae04335.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demand</title>
+    <script src="https://kit.fontawesome.com/424ae04335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-      <nav id="navbar">
-         <div class="navbar-container">
-                  <a href="#" class="logo">DEMAND_DEV</a>
-                  <div class="menu">
-                          <ul class="list">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Project</a></li>
-                          </ul>
-                   </div>
-           </div>
-      </nav>
-      <header id="header-hero">
-             <div class="content container">
-                     <div class="content-text">
-                              <div class="content-header">
-                                     <h1> Hey, I'm a <span>Front-End</span> Web developer</h1>
-                              </div>
-                              <div class="content-paragraph">
-                                        <p>I'm currently learning HTML, CSS, JAVASCRIPT, REACT. I strive to stay on the cutting edge of web design and development.
-                                          My
-                                          favorite part of web is building a solution that impresses the client and meets the need of user and customers.</p>
-                               </div>
-                               <div class="content-button">
-                                         <button>Contact</button>
-                                </div>
-                       </div>
-                       <div class="content-img">
-                             <img src="./img/display.png" alt="">
-                       </div>
-             </div>
-      </header>
-      <section id="testimony-section">
-            
-            <h1>Customer Testimonials</h1>
-             <div class="testimony-wrapper">
-                       <div class="customer">
-                                     <img src="./img/customer1.png" alt="">
-                                      <i class="fa fa-quote-left"></i>
-                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident</p>
-                                      <h4">John Doe</h4>
-                                      <p>Market Manager</p>
-                                <div class="rating">
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star"></i>
-                                 </div>
-                        </div>
+    <header>
+         <ul id="navbar" class="nav-bar">
+         <li>
+            <a class="nav-link active" href="#">Home</a>
+         </li>
+         <li>
+            <a  class="nav-link" href="#">Projects</a>
+         </li>
+         <li>
+            <a class="nav-link" href="#">CV</a>
+         </li>
+         <li>
+            <a class="nav-link" href="#">Contact</a>
+         </li>
+         </ul>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+           </a>
+     </header>
 
-                       <div class="customer">
-                                    <img src="./img/customer2.png" alt="">
-                                     <i class="fa fa-quote-left"></i>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident</p>
-                                    <h4>Kelvin Powell</h4>
-                                    <p>Logistic Manager</p>
-                             <div class="rating">
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star"></i>
-                                      <i class="fa fa-star-half-stroke"></i>
-                               </div>
-                        </div>
-                        <div class="customer">
-                                   <img src="./img/customer3.png" alt="">
-                                  <i class="fa fa-quote-left"></i>
-                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, provident</p>
-                                    <h4>John Doe</h>
-                                  <p>Market Manager</p>
-                              <div class="rating">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                 </div>
-                        </div>
-                     </div>
-                     
-      </section>
-      <footer id="footer">
+    
+    <main>
+        <section class="hero-header">
+                <div class="hero-header-content">
+                   <h1 class="header">Hi, <span>I'm <i class="highlight">Demand</i> </span>Frontend Web Developer</h1>
+                   <p class="about-me">I strive to stay on the cutting edge of web development and I enjoy building solutions to meet users needs. If your business needs a web presence or you are looking to hire a web developer to join your team, you can reach out to me here</p>
+                </div>
+                <div class="contact-link">
+                      <div class="website">
+                          <a href="#" >I need a website <i class="fa-solid fa-angle-right"></i></a>
+                      </div>
+                      <div class="hire">
+                           <a href="#">I’m looking to hire <i class="fa-solid fa-angle-right"></i></a>
+                      </div>
+                   
+                </div>
+        </section>
+        <div class="display-img">
+             <img src="./img/image_from_ios 1.png" alt="display-img">
+        </div>
+    </main>
+    <footer>
              <div class="footer-container">
-                 <div>
-                        <p>Copyright &copy; 2022, Demand_dev All Right Reserved</p>
-                        <div>
-                              <a href="#">Term of use</a> | <a href="#">Privacy Policy</a>
-                        </div>
+                  <div class="stack">
+                 <div class="html">
+                    <img src="./img/html.png" alt="html">
+                 </div>
+                 <div class="css">
+                   <img src="./img/css.png" alt="css">
+                 </div>
+                 <div class="bootsrap" >
+                    <img src="./img/bootsrap.png" alt="bootsrap">
+                 </div>
+                 <div class="js">
+                    <img src="./img/logos_javascript.png" alt="js" >
+                 </div>
+                 <div class="react" >
+                    <img src="./img/icons8-react-native-48.png" alt="react">
+                 </div>
+                 <div class="git">
+                    <img src="./img/Git_icon.svg.png" alt="git">
+                 </div>
+            </div>
+            <div class="social">
+                 <a href="" class="gitbub">
+                      <i class="fa-brands fa-github"></i>
+                 </a>
+                 <a href="#" class="linkedin">
+                      <i class="fa-brands fa-linkedin-in"></i>
+                 </a>
+                  <div class="twitter">
+                       <a href="">
+                           <i class="fa-brands fa-twitter"></i>
+                       </a>
                   </div>
+            </div>
              </div>
-      </footer>
-
+        </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>

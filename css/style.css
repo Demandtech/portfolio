@@ -1,0 +1,236 @@
+@import url('http://fonts.cdnfonts.com/css/caviar-dreams');
+
+                
+
+body{
+  min-height: 100vh;
+  background: url(../img/bg.jpeg)no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Caviar Dreams', arial;
+}
+
+
+
+header{
+  padding: 50px 70px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.nav-bar{
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  margin: 0 20px;
+  font-style: italic;
+  padding: 0 5px 10px 5px;
+}
+
+.nav-link:hover{
+  border-bottom: 3px solid #FFD60ACC;
+
+}
+
+.active{
+  border-bottom: 3px solid #FFD60A;
+}
+
+.icon{
+  display: none;
+  
+}
+
+/* Hero Header */
+
+.display-img{
+  position: absolute;
+  right: 0;
+  bottom: 0 ;
+}
+
+.hero-header{
+  color: white;
+  padding-left: 70px;
+  width: 45%;
+}
+
+.header{
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.header span{
+  display: block;
+}
+
+.highlight{
+  display: inline-block;
+  color: #FFD60A;
+}
+
+.about-me{
+  line-height: 1.3;
+  font-size: 18px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.contact-link{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.website{
+  background: #FFD60ACC;
+  text-decoration: none;
+  padding: 20px 50px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hire{
+  background: #00356699;
+  text-decoration: none;
+  padding: 20px 50px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.contact-link a{
+  text-decoration: none;
+   color: #ffffff;
+}
+
+
+/* footer style */
+
+
+
+
+.stack {
+  display: flex;
+  gap: 20px;
+}
+
+.stack img{
+  width: 48px;
+ 
+}
+
+.social{
+  display: flex;
+  gap: 10px;
+  z-index: 2;
+  margin-right: 200px;
+}
+
+.social .fa-brands{
+  padding: 10px;
+  background-color: #FFD60A;
+  border-radius: 50%;
+  color: black;
+}
+
+.footer-container{
+  display:  flex;
+  justify-content: space-between;
+  padding: 20px 70px;
+  align-items: center;
+}
+
+@media(max-width: 425px) {
+  header{
+     padding: 0
+     
+     
+     
+  }
+
+  header .icon{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+    color: #fff;
+  }
+
+
+  #navbar{
+   display: none;
+   width: 100%;
+   text-align: center;
+   background-color: #212121;
+   padding-top: 50px;
+  }
+
+  .nav-link{
+    display: block;
+    margin: 10px 0; 
+  }
+
+  .active{
+  background-color:#FFD60A;
+  padding: 10px 0;
+  }
+
+  main{
+    margin-top: 40px;
+    padding: 20px;
+  }
+
+  .hero-header{
+    width: 100%;
+    padding: 0;
+  }
+  
+  .contact-link{
+    flex-direction: column;
+    
+  }
+
+  .footer-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .display-img{
+   display: none;
+
+  }
+
+  .stack{
+    justify-content: space-between;
+    gap:10px;
+  }
+
+  .social{
+   padding: 0;
+   width: 100%;
+   margin: 0;
+   justify-content: center;
+   margin-top: 20px;
+  }
+
+}
