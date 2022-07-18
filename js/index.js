@@ -5,16 +5,25 @@ for (let i = 0; i < btns.length; i++) {
   let current = document.getElementsByClassName("active");
   current[0].className = current[0].className.replace(" active", "");
   this.className += " active";
+  
   });
 }
 
 
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
-function myFunction() {
-  var x = document.getElementById("navbar");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu(){
+   hamburger.classList.toggle("change");
+   navMenu.classList.toggle("change");
+}
+
+const navLink = document.querySelectorAll(".nav-link");
+navLink.forEach((n) => n.addEventListener("click", closeMenu));
+
+function closeMenu() {
+    hamburger.classList.remove("change");
+    navMenu.classList.remove("change");
 }
