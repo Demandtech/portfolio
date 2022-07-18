@@ -48,6 +48,7 @@ body{
   font-weight: 300;
   color: #ffffff;
   text-decoration: none;
+  padding: 10px;
 }
 
 .nav-logo{
@@ -74,7 +75,7 @@ body{
 
 .active{
   border-bottom: 3px solid #FFD60A;
-  padding: 10px;
+  
 
 }
 
