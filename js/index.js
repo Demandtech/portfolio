@@ -27,3 +27,49 @@ function closeMenu() {
     hamburger.classList.remove("change");
     navMenu.classList.remove("change");
 }
+
+let i = 0;
+let text = "Demand";
+let speed = 150;
+
+function autoType(){
+  if(i<text.length){
+    document.getElementById("name").innerHTML += text.charAt(i);
+    i++;
+    setTimeout(autoType, speed)
+  }
+
+}
+
+autoType()
+
+let project = document.getElementById("project");
+project.style.display = "none";
+
+let contact = document.getElementById("contact");
+contact.style.display = "none";
+
+let hero = document.getElementById("hero-header");
+
+document.querySelector(".message").addEventListener("click", function(){
+  contact.style.display = "block";
+  hero.style.display = "none";
+});
+
+document.querySelector(".work").addEventListener("click", function () {
+    project.style.display = "block";
+    hero.style.display = "none";
+});
+
+
+let navProject = document.getElementById("projects").addEventListener("click", function(){
+  project.style.display = "block";
+  hero.style.display = "none";
+  contact.style.display = "none";
+})
+
+let navMessage = document.getElementById("contacts").addEventListener("click", function () {
+    contact.style.display = "block";
+    hero.style.display = "none";
+    project.style.display = "none";
+});
