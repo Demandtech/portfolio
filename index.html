@@ -18,7 +18,7 @@
                 </li>
                   
                   <li class="nav-item">
-                      <a class="nav-link active" href="index.html">Home</a>
+                      <a class="nav-link nav-active" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                       <a id="projects" class="nav-link" href="#project">Projects</a>
@@ -39,14 +39,14 @@
          
     </header>
     <main>
-        <section class="hero-header" id="hero-header">
+        <section class="hero-header display" id="hero-header">
             <div class="hero-container">
                  <div class="left">
                     <div class="hero-header-content">
                             <p>Hello there, I am </p>
                             <h1 class="name" id="name"></h1>
                             <h2>I'm a Frontend Web Developer</h2>
-                            <p class="about-me">I srive to stay on the cutting edge of web development and I enjoy building solutions to meet users needs. If your business needs a web presence or you are looking to hire a web developer to join your team, you can reach out to me here</p>
+                            <p class="about-me">I strive to stay on the cutting edge of web development and I enjoy building solutions to meet users needs. If your business needs a web presence or you are looking to hire a web developer to join your team, you can reach out to me here</p>
                     </div>
                     <div class="contact-link">
                             <div class="message">
@@ -63,11 +63,11 @@
                     </div>
                 </div>
             </div>
-            
-             <div class="bg"></div> 
+            <div class="hero-bg"></div>
+             
         </section>
-        <section class="project" id="project">
-             <div class="pro-bg"></div> 
+        <section class="project display" id="project">
+             <div class="project-top-bg"></div>
               <div class="project-container">
                    <div class="project-header">
                        <h2>PROJECTS</h2>
@@ -117,15 +117,16 @@
                        </div>
                    </div>
               </div>
-              <div class="pro-bg-2"></div> 
+              <div class="project-btm-bg"></div>
         </section>
-        <section class="contact" id="contact">
+        <section class="contact display" id="contact">
+            <div class="contact-top-bg"></div>
                 <div class="contact-container">
                      <div class="contact-header">
                         <h2>CONTACT</h2>
                      </div>
                      <div class="contact-wrapper">
-                          <div class="left">
+                          <div class="contact-left">
                               <div class="email btn">
                                   <p>Email <i class="fa-regular fa-envelope"></i></p>
                                   <p>Demandwork247@gmail.com</p>
@@ -134,13 +135,15 @@
                                   <p>whatsapp <i class="fa-brands fa-whatsapp"></i></p>
                                   <p>+2347060699353</p>
                               </div>
-                              <a href="https://www.linkedin.com/in/rasheed-adekunle-18540a22b/" class="btn"><div class="linkedin">
-                                  <p>Linkedin <i class="fa-brands fa-linkedin-in"></i></p>
-                                  <p>Demandwork247@gmail.com</p>
-                              </div></a> 
+                              <div class="linkedin btn">
+                                   <a href="https://www.linkedin.com/in/rasheed-adekunle-18540a22b/" target="_blank">
+                                   linkedin <i class="fa-brands fa-linkedin-in"></i>
+                                  </a> 
+                                  <p>Rasheed Adekunle</p>
+                              </div>
+                              
                           </div>
-                          <div class="right">
-                               <div class="contact-form">
+                          <div class="contact-form">
                                     <p>Have a question or want to work together?</p>
                                     <form action="">
                                          <input type="text" placeholder="Name"> <br>
@@ -148,13 +151,14 @@
                                          <textarea name="" id="" cols="30" rows="5"></textarea><br>
                                          <button type="submit">Send Message</button>
                                     </form>
-                               </div>
                           </div>
                      </div>
                 </div>
+               <div class="contact-btm-bg"></di>
         </section>
+        <button title="Go to top" id="top-btn">Top</button>
     </main>
-    
+    <footer>
              <div class="footer-container">
                 <div class="social">
                     <a href="https://github.com/Demandtech" class="gitbub" target="_blank">
