@@ -20,7 +20,7 @@ body{
   
 }
 
-section{
+ section{
   min-height: 100vh; 
 }
 
@@ -257,10 +257,12 @@ height: 400px;
  
 .p-1 {
   position:relative;
-  background: url(../img/desktop-design.png)center no-repeat;
+  background: url(../img/desktop-preview.png)no-repeat;
+  background-position: center;
   background-size: cover;
   height: 200px;
   transition: ease-in-out 3s;
+  border-radius: 10px;
 }
 
 .p-1-hover{
@@ -268,7 +270,7 @@ height: 400px;
   top: 0;
   right: 0;
   left: 0;
-  bottom: 0;
+ 
   background-color:#111E6C;
   display: flex;
   flex-direction: column;
@@ -287,20 +289,38 @@ height: 400px;
   padding: 5px 15px;
   color: white;
   border-radius: 5px; 
+  margin-bottom: 20px;
+  
+}
+
+.p-1-hover h6{
+  color: white;
+  font-size: 22px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  margin: 20px 0;
+
+}
+
+.next, .prev{
+  display: none;
 }
 
 .p-1:hover .p-1-hover{
   display: flex;
+  margin-bottom: 100px;
   
 }
 
 .project-content{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 320px));
+  position:relative;
   width: 90%;
   margin: 0 auto;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 320px));
   gap: 40px;
+  justify-content: center;
+  padding: 20px 0;
 }
 
 
@@ -314,6 +334,73 @@ height: 400px;
 .display.active{
   transform: translateY(0px);
   opacity: 1;
+}
+
+/* Skills */
+
+.skills{
+  overflow: hidden;
+}
+
+.skills-header{
+  text-align: center; 
+}
+
+.skills-header h2{
+  font-size: 45px;
+  margin-bottom: 50px;
+  color: #2E2E3C;
+  font-weight: 800;
+  margin-top: 20px;
+  border-bottom: 4px solid #0904ED;
+  display: inline-block;
+  padding:5px 10px;
+  -webkit-text-stroke: 5px #0904ED4A;
+  letter-spacing: 10px;
+}
+
+.skills-header p{
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #003152;
+
+}
+
+.skills-container{
+  width: 50%;
+  background-color: #B0DFE5;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.html,
+.css,
+.boostrap,
+.js,
+.git,
+.figma{
+  background-color: #003152;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 15px 0;
+}
+
+figcaption{
+  color: #ffffff;
+}
+
+/* Certificates */
+
+.cert{
+  overflow: hidden;
 }
 
 /* contact */
@@ -515,6 +602,17 @@ form button{
 }
 
  @media(max-width: 800px){
+  .hero-container{
+    width: 100%;
+    padding: 20px;
+  }
+
+  .right{
+    width: 40%;
+  }
+  .left{
+    width: 60%;
+  }
   .contact-container{
     width: 100%;
   }
@@ -658,7 +756,7 @@ form button{
   .contact-form{
     width: 100%;
   }
-  .footer-container{
+   .footer-container{
     flex-direction: column;
     justify-content: center;
   }
@@ -685,6 +783,9 @@ form button{
    display: none;
     
   }
+
+ 
+
 
   /* .project-content{
   display: grid;
