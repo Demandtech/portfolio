@@ -362,7 +362,9 @@ height: 400px;
 .skills-header p{
   font-size: 20px;
   padding-bottom: 20px;
-  color: #003152;
+  color: #22223b;
+  text-transform: uppercase;
+  font-weight: 900;
 
 }
 
@@ -370,10 +372,10 @@ height: 400px;
   width: 50%;
   background-color: #B0DFE5;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 130px));
   margin: 0 auto;
   gap: 20px;
-  padding: 20px;
+  padding: 20px 0;
   justify-content: center;
   border-radius: 20px;
 }
@@ -391,10 +393,13 @@ height: 400px;
   justify-content: center;
   border-radius: 10px;
   padding: 15px 0;
+  border: 5px solid #f6f6f6;
 }
 
 figcaption{
   color: #ffffff;
+  padding-top: 20px;
+  font-weight: 500;
 }
 
 /* Certificates */
@@ -615,6 +620,7 @@ form button{
   }
   .contact-container{
     width: 100%;
+    
   }
 
   .btn{
@@ -634,7 +640,7 @@ form button{
 
   main{
     margin-top: 40px;
-    padding: 0 20px;
+    /* padding:  20px; */
     width: 100%;
   }
 
@@ -711,6 +717,11 @@ form button{
   .name{
     font-size: 45px;
   }
+  main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
   
 
   .hero-header-content h2{
@@ -722,7 +733,17 @@ form button{
     padding: 0;
   }
 
-  
+  .skills-container{
+    width: 100%;
+    column-gap: 50px;
+    border-radius: 5px;
+    border: 2px solid #003152;;
+   
+  }
+
+  .contact-container{
+    padding: 20px;
+  }
 
   .left{
     width: 100%;
