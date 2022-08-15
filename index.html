@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<HTML lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Demand</title>
-    <script src="https://kit.fontawesome.com/424ae04335.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <title>Demand Portfolio</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
+    <!-- <header class="header">
          <nav class="navbar">
-             
              <ul id="navbar" class="nav-menu">
-                <li class="nav-item">
-                    <img src="./img/display-img.png" alt="" width="150px" class="mobile-dp">
-                </li>
-                  
                   <li class="nav-item">
-                      <a class="nav-link nav-active" href="index.html">Home</a>
+                      <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                       <a id="projects" class="nav-link" href="#project">Projects</a>
@@ -37,53 +33,234 @@
                   <span class="bar"></span>
                   <span class="bar"></span>
                   <span class="bar"></span>
-            </div>
+              </div>
          </nav>
          
-    </header>
+    </header> -->
     <main>
-        <section class="hero-header display" id="hero-header">
-            <div class="hero-container">
-                 <div class="left">
-                    <div class="hero-header-content">
-                            <p>Hello there, I am </p>
-                            <h1 class="name" id="name"></h1>
-                            <h2>I'm a Frontend Web Developer</h2>
-                            <p class="about-me">I strive to stay on the cutting edge of web development and I enjoy building solutions to meet users needs. If your business needs a web presence or you are looking to hire a web developer to join your team, you can reach out to me here</p>
+        <section class="hero display" id="hero">
+                 <div class="hero-container container">
+                      <div class="hero-header-container">
+                               <div class="hero-header-content">
+                                    <h1>Adekunle Rasheed.</h1>
+                                    <h2>A Professional Frontend Web Developer</h2>
+                                    <p class="about-me">I strive to stay on the cutting edge of web development and I enjoy building solutions to meet users needs. If your business needs a web presence or you are looking to hire a web developer to join your team, you can reach out to me here</p>
+                               </div>
+                               <div class="work">
+                                    <a href="#contact">Contact<i class="bi bi-send"></i></a>
+                                </div>
+                              
+                           
+                        </div>
                     </div>
-                    <div class="contact-link">
-                            <div class="download">
-                                <a href="./img/My Resume (3).pdf" download="">Download CV<i class="fa-solid fa-angle-right"></i></a>
-                            </div>
-                            <div class="work">
-                                <a href="#project">View My Works<i class="fa-solid fa-angle-right"></i></a>
-                            </div>
-                     </div>
+        </section>
+        <section class="skills" id="skill">
+                 <div class="skill-container container">
+                      <div class="header">
+                            <h2>Technical Skill</h2>
+                            <h6>I am good but not limited to these skills</h6>
+                      </div>
+                      <div class="skill-wrapper">
+                           <div class="html skill-card">
+                                <h4>HTML</h4> 
+                                 <h6>Hyper Text Markup Language</h6>
+                                <p>I always prefer semantic markup and keep accesibility in mind while writing html. I keep the structure consistent so that it can be targeted well with CSS, Js, and can be scaled further</p>
+                                <div class="more">
+                                    <span>HTML5</span>
+                                </div>
+                                
+                           </div>
+                           <div class="css skill-card">
+                                <h4>CSS</h4> 
+                                <h6>Casscading Style Sheet</h6>
+                                <p>I write modular & scalable CSS to design pixel-perfect websites, with strong layout debugging skills. Can leverage the benefits of frameworks like Bootstrap to create aesthetic and beautiful layouts from absolutely scratch.</p>
+                                <div class="more">
+                                    <span>BOOTSTRAP</span>
+                                    <span>SCSS</span>
+                                </div>
+                           </div>
+                           <div class="js skill-card">
+                                <h4>JAVASCRIPT</h4> 
+                                <h6>Scripting Language</h6>
+                                <p>Comfortable with DOM Manuplations and interactions, events, APIs, ES6/ES7. I Can work with any library (sort of) that has a good documentation!</p>
+                                <div class="more">
+                                    <span>REACT</span>
+                                    <span>TYPESCRIPT</span>
+                                </div>
+                           </div>
+                           <div class="git skill-card">
+                                <h4>GIT</h4> 
+                                <h6>Version Control</h6>
+                                <p>DevOps tool Used for source management, I can update, manage, keep in track of works, Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source.</p>
+                                <div class="more">
+                                    <span>GITHUB</span>
+                                    <span>BITBUCKET</span>
+                                </div>
+                           </div>
+                      </div>
+                       
                  </div>
-                <div class="right">
-                    <div class="display-img">
-                        <img src="./img/display-img.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="social">
-                    <a href="https://github.com/Demandtech" class="gitbub" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/rasheed-adekunle-18540a22b/" target="_blank" class="linkedin">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                    </a>
-                    <div class="twitter">
-                        <a href="https://twitter.com/demandtvs" target="_blank">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </div>
-            </div>
-            <div class="hero-bg"></div>
-             
         </section>
         <section class="project" id="project">
-                 <!-- <div class="project-top-bg"></div> -->
+                 <div class="project-container container">
+                      <div class="header">
+                            <h2>Projects</h2>
+                            <h6>I have worked on many projects, team, and organizations</h6>
+                      </div>
+                      <div class="project-wrapper">
+                           <div class="project-card">
+                                <div class="project-card-header">
+                                     <h4>Zuri.team Clone</h4> 
+                                    <h6>Zuri Training(Ingressive for Good)</h6>
+                                </div>
+                                <p>Zuri team is a free online bootcamp that help newbies to master web development This was one of my favorite challenges, this was my final Challenger in Zuri training Cohort 6. </p>
+                                <div class="view-more">
+                                    <a href="#" class="live">Live Demo <i class="bi bi-view-stacked"></i></a>
+                                    <a href="#" class="code">View Code <i class="bi bi-github"></i></a>
+                                </div>
+                           </div>
+                           <div class="project-card">
+                                <div class="project-card-header">
+                                     <h4>Kode.camp Clone</h4> 
+                                     <h6>KodeCamp Training Bootcamp</h6>
+                                </div>
+                                <p>KodeCamp is designed to support capacity development in the field of information and communication technology (ICT) by providing training, mentorship, leadership, and career opportunities to young Nigerians.</p>
+                                <div class="view-more">
+                                    <a href="#" class="live">Live Demo <i class="bi bi-view-stacked"></i></a>
+                                    <a href="#" class="code">View Code <i class="bi bi-github"></i></a>
+                                </div>
+                           </div>
+                           <div class="project-card">
+                                <div class="project-card-header">
+                                     <h4>Zuri.team Clone</h4> 
+                                     <h6>Zuri Training(Ingressive for Good)</h6>
+                                </div>
+                                <p>Zuri team is a bootcamp that help newbies to master web development This was one of my favorite challenges, this was my final Challenger in Zuri training Cohort 6. </p>
+                                <div class="view-more">
+                                    <a href="#" class="live">Live Demo <i class="bi bi-view-stacked"></i></a>
+                                    <a href="#" class="code">View Code <i class="bi bi-github"></i></a>
+                                </div>
+                           </div>
+                           <div class="project-card">
+                                <div class="project-card-header">
+                                     <h4>Zuri.team Clone</h4> 
+                                     <h6>Zuri Training(Ingressive for Good)</h6>
+                                </div>
+                                <p>Zuri team is a bootcamp that help newbies to master web development This was one of my favorite challenges, this was my final Challenger in Zuri training Cohort 6. </p>
+                                <div class="view-more">
+                                    <a href="#" class="live">Live Demo <i class="bi bi-view-stacked"></i></a>
+                                    <a href="#" class="code">View Code <i class="bi bi-github"></i></a>
+                                </div>
+                           </div>
+                      </div>
+                       
+                 </div>
+        </section>
+        <section class="cert" id="certificate">
+               <div class="container cert-container">
+                     <div class="header">
+                            <h2>Certificates</h2>
+                            
+                      </div>
+                      <div class="cert-wrapper">
+                            <div class="freecodecamp cert-card">
+                                  <div class="cert-card-header">
+                                       <h6>FreeCodeCamp</h6>
+                                       <span>March, 2022</span>
+                                  </div>
+                                  <p class="subhead">Certificate of Completion - Responsive Web Design Web Design Certificate(300hours)</p>
+                                  <p> freeCodeCamp is a nonprofit organization that is donor-supported. Their goal is to help people learn to code for free.</p>
+                            </div>
+                            <div class="kodecamp cert-card">
+                                 <div class="cert-card-header">
+                                      <h6>KodeCamp Training</h6>
+                                      <span>June, 2022</span>
+                                 </div>
+                                 <p class="subhead">Certificate of Completion - Frontend Development</p>
+                                 <p>KodeCamp is designed to support capacity development in the field of information and communication technology (ICT) by providing training, mentorship, leadership, and career opportunities to young Nigerians.</p>
+                            </div>
+                            <div class="zuri cert-card">
+                                 <div class="cert-card-header">
+                                      <h6>Zuri Training</h6>
+                                      <span>August, 2022</span>
+                                 </div>
+                                 <p class="subhead">Certificate of Completion - Frontend Development</p>
+                                 <p>At Zuri Team, we train, test and place talent in various industries. We have access to the best pool of skills in the tech Industry.</p>
+                            </div>
+                      </div>
+               </div>
+        </section>
+        <section class="contact" id="contact">
+                 <div class="container contact-container">
+                      <div class="contact-header">
+                            <h3>LET'S WORK ON YOUR IDEA!</h3>
+                      </div>
+                      <div class="contact-wrapper">
+                           <div class="left-contact-wrapper">
+                           <div class="email">
+                                <div class="box-header">
+                                     <i class="bi bi-envelope"></i>
+                                     <h5>EMAIL</h5>
+                                </div>
+                                <span>Demandwork247@gmail.com</span>
+                           </div>
+                           <div class="call">
+                                 <div class="box-header">
+                                      <i class="bi bi-telephone"></i>
+                                      <h5>PHONE</h5>
+                                 </div>
+                                 <span>+2347060699353</span>
+                            </div>
+                            <div class="address">
+                                 <div class="box-header">
+                                      <i class="bi bi-geo-alt"></i>
+                                      <h5>ADDRESS</h5>
+                                 </div>
+                                 
+                                 <span>Ikeja Lagos State, Nigeria</span>
+                            </div>
+                            <div class="box-header social">
+                                <a href="https://www.facebook.com/profile.php?id=100079860615543" target="_blank">
+                                   <i class="bi bi-facebook"></i>
+                                </a>
+                                <a href="https://twitter.com/Demandtvs" target="_blank">
+                                   <i class="bi bi-twitter"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/rasheed-adekunle-18540a22b/" target="_blank">
+                                    <i class="bi bi-linkedin"></i>
+                                </a>
+                                <a href="https://github.com/Demandtech" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                            </div>
+                            <div class="right-contact-wrapper">
+                                <form action="">
+                                        <input type="text" placeholder="Enter Your Name"><br>
+                                        <input type="email" placeholder="Enter Your Email"><br>
+                                        <textarea style="resize: none; height: 200px;" placeholder="Enter Your Message"></textarea><br>
+                                        <button type="submit">Send</button>
+                                </form>
+                            </div>
+                      </div>
+                </div>
+              
+
+              
+
+        </section>
+     
+    </main>
+    <footer>
+        <div class="container footer-container">
+            <p>&#169;2022 Demand</p>
+        </div>
+    </footer>
+
+
+    <script src="./js/index.js"></script>
+        <!-- <section class="project" id="project">
+               
                  <div class="section-header">
                        <h2>PROJECTS <i class="fa-solid fa-diagram-project"></i></h2>
                  </div>
@@ -170,71 +347,22 @@
                             
                       </div>
                  </div>
-                 <!-- <div class="project-btm-bg"></div> -->
+                
         </section>
         <section class="skills" id="skill">
-            <!-- <div class="skills-top-bg"></div> -->
-              <div class="section-header">
-                       <h2>SKILLS <i class="fa-solid fa-code"></i></h2>
-              </div>
-              <div class="skills-container display">
-                   <div class="html skill-card">
-                        <figure>
-                            <img src="./img/html.png" alt="html">
-                            <figcaption>HTML</figcaption>
-                        </figure>
-                   </div>
-                   <div class="css skill-card">
-                        <figure>
-                            <img src="./img/css.png" alt="css">
-                            <figcaption>CSS</figcaption>
-                        </figure>
-                   </div>
-                   <div class="boostrap skill-card">
-                         <figure>
-                               <img src="./img/bootsrap.png" alt="boostrap">
-                               <figcaption>BOOSTRAP</figcaption>
-                         </figure>
-                   </div>
-                   <div class="js skill-card">
-                           <figure>
-                                 <img src="./img/logos_javascript.png" alt="js">
-                                 <figcaption>JAVASCRIPT</figcaption>
-                           </figure>
-                   </div>
-                   <div class="git skill-card">
-                             <figure>
-                                  <img src="./img/Git_icon.svg.png" alt="git">
-                                  <figcaption>GIT</figcaption>
-                             </figure>
-                   </div>
-                   <div class="figma skill-card">
-                            <figure>
-                                <img src="./img/logos_figma.png" alt="figma">
-                                <figcaption>FIGMA</figcaption>
-                            </figure>
-                   </div>
-                   <div class="react skill-card">
-                            <figure>
-                                <img src="./img/react.png" alt="React">
-                                <figcaption>REACT</figcaption>
-                            </figure>
-                   </div>
-              </div>
-              <!-- <div class="skills-btm-bg"></div> -->
+            
         </section>
         <section class="cert" id="cert">
-              <!-- <div class="project-top-bg"></div> -->
+           
                     <div class="section-header">
                         <h2>CERTIFICATES <i class="fa-solid fa-code"></i></h2>
                     </div>
                     <div class="cert-container  display">
 
                     </div>
-                <!-- <div class="project-btm-bg"></div> -->
+  
         </section>
         <section class="contact " id="contact">
-                <!-- <div class="contact-top-bg"></div> -->
                 <div class="section-header">
                     <h2>CONTACT <i class="fa-solid fa-address-card"></i></h2>
                 </div>
@@ -269,7 +397,6 @@
                           </div>
                      </div>
                 </div>
-               <!-- <div class="contact-btm-bg"></di> -->
         </section>
         
         <button title="Go to top" id="top-btn">Top</button>
@@ -284,9 +411,8 @@
                     <p>© 2022 DemandDev</p>
                 </div>
                 <ul class="footer-nav">
-                   <!-- <li class="nav-item">
                     <img src="./img/display-img.png" alt="" width="150px" class="mobile-dp">
-                </li> -->
+                </li>
                   
                   <li class="footer-nav-item">
                       <a class="footer-nav-link" href="index.html">Home</a>
@@ -318,7 +444,6 @@
                     </div>
                 </div>
              </div>
-    </footer>
-    <script src="./js/index.js"></script>
+    </footer>-->
 </body>
-</html>
+</html> 
