@@ -114,7 +114,7 @@ body{
   
 }
 
-.bi-send{
+.work .bi-envelope{
   margin-left: 10px;
   font-size: 18px;
 }
@@ -513,6 +513,13 @@ form input:hover, form textarea{
 
   .hero-header-container{
     text-align: center;
+    width: 100%;
+  }
+  .work{
+    width: 100%;
+  }
+  .work a{
+    font-size: 16px ;
   }
 
   .left-contact-wrapper,
@@ -530,6 +537,27 @@ form input:hover, form textarea{
     font-size: 25px;
   }
 
+  .container h4{
+    font-size: 18px;
+  }
+
+  .container h6{
+    font-size: 18px;
+  }
+
+  .project-card .view-more a{
+   padding: 5px 10px;
+   border-radius: 5px;
+   font-size: 14px;   
+  }
+
+  .cert-wrapper span{
+    font-size: 14px;
+  }
+
+  .cert-card{
+    padding: 20px 10px;
+  }
   .social{
     justify-content: center;
   }
