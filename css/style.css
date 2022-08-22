@@ -1,7 +1,6 @@
 
-@import url('http://fonts.cdnfonts.com/css/caviar-dreams');
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap');
+
 html{
   scroll-behavior: smooth;
 }
@@ -11,23 +10,18 @@ body{
   font-family: "Outfit", "caviar-dreams";
 }
 
-h1,h2,h3,h4,h6{
-  font-family: "outfit" !important;
-}
 
-a, p{
-  font-family: "Caviar Dreams" !important;
-}
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "outfit";
 }
 
 /* Header Styles Start here */
 
-.header{
+/* .header{
   padding: 20px 0;
 }
 
@@ -70,7 +64,7 @@ a, p{
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #463D3D;
-}
+} */
 
 /* Header styling end here  */
 
@@ -102,6 +96,7 @@ a, p{
 
 .hero-header-container p{
   font-size: 18px;
+  font-weight: 300;
 }
 
 .work{
@@ -453,6 +448,7 @@ form input:hover, form textarea{
 }
 
 @media (max-width: 426px) {
+
   .header{
     padding: 0;
   } 
@@ -501,7 +497,42 @@ form input:hover, form textarea{
 
   .hamburger.change .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
-   }
+  }
+
+  .hero-header-content h1{
+    font-size: 25px;
+  }
+
+  .hero-header-content h2{
+    font-size: 18px;
+  }
+
+  .contact-wrapper{
+    flex-direction: column;
+  }
+
+  .hero-header-container{
+    text-align: center;
+  }
+
+  .left-contact-wrapper,
+  .right-contact-wrapper{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container{
+    padding: 0 30px;
+    width: 100%;
+  }
+
+  .container h2{
+    font-size: 25px;
+  }
+
+  .social{
+    justify-content: center;
+  }
 }
 
 
