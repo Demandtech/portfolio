@@ -558,6 +558,15 @@ form input:hover, form textarea{
   .cert-card{
     padding: 20px 10px;
   }
+
+  .cert-card p{
+    color: #6B7280; 
+  }
+
+  .subhead{
+  color: #1270E3 !important;
+  }
+  
   .social{
     justify-content: center;
   }
